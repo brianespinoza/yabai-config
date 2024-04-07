@@ -55,7 +55,7 @@ function setup_space {
   yabai -m space "$idx" --label "$name"
 }
 
-
+#taken from https://d12frosted.io/posts/2022-04-23-yabai-spaces.html
 setup_space 1 web
 setup_space 2 code
 setup_space 3 journal
